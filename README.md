@@ -5,6 +5,7 @@ Do things with your trash from CLI
 ## We have `trash-cli` already!
 
 Well yes, but it doesn't hurt to have another one, in another language. Besides, `rac` will be more powerful and faster. Who doesn't want faster software
+
 <img src="https://i.imgur.com/mJk01Ms.png" alt="comparision" width=500>
 
 ### But wait, what does `rac` mean?
