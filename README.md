@@ -1,4 +1,4 @@
-# Biru
+# Rac
 
 Do things with your trash from CLI
 
