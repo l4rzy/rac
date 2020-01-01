@@ -4,13 +4,13 @@ using Rac;
 namespace Rac.Drivers {
     public class List {
         private static bool version = false;
-        private static bool color = true;
+        private static string color = "no";
         private static bool ll = false;
         private static bool rec = false;
         private static bool debug = false;
 
         public const OptionEntry[] options = {
-            { "color", 'C', 0, OptionArg.NONE, ref color, "Enable color support", null },
+            { "color", 'C', 0, OptionArg.STRING, ref color, "Enable color support", null },
             { "long", 'l', 0, OptionArg.NONE, ref ll, "List as long format", null },
             { "recursive", 'R', 0, OptionArg.NONE, ref rec, "Recursively list all children", null },
             { "debug", 'd', 0, OptionArg.NONE, ref debug, "Verbose debug info", null },
