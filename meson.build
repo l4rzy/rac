@@ -11,7 +11,7 @@ c_args = [
 sources = files(
     'core.vala',
     'rac.vala',
-    'list.vala'
+    'drivers/list.vala'
 )
 
 dependencies = [
